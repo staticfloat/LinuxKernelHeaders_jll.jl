@@ -128,3 +128,117 @@ target_os = "linux"
     [[LinuxKernelHeaders.download]]
     sha256 = "e3d7248933714668cc5456befe34cb13948e040ee27d2489c634143315d9e10a"
     url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+2/LinuxKernelHeaders.v5.15.14.x86_64-linux-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "aarch64"
+git-tree-sha1 = "c8d25228da6887d0d555bb7f663cdc042f3426ab"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "ed729307cf6f68743d57a5a6aea33766fb2cbe3754fd824f783e79880e668fca"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.aarch64-linux-gnu-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "aarch64"
+git-tree-sha1 = "fa70bfd8b7a5a6945a75d73a5fb3fc7e060bfbb0"
+host = "any"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "439991298690aa52473b6d35727c138cd9143bee8a6a25da386b9a496276fa53"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.aarch64-linux-musl-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "153fa218c7d8ed66c7d9f21d86c428d73e8ff2cc"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "133d51e319bb1cdc4ae9aac03efdf1d809d48dc223524b5028abeb6008b67fd6"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.armv6l-linux-gnueabihf-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "699905b112988dc05f72ceffb2af053f5374dbc1"
+host = "any"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "4cca717cb3713b629beeafb20aadfffc7f71b5f8f297ee36c779ee25df1bc73d"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.armv6l-linux-musleabihf-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "10ed3dff3037d6c9c2855be142d89d6c803d0014"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "2782291eabec9af75607b77b511f20b773264624c89d61a6a43077a8c90e6b53"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.armv7l-linux-gnueabihf-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "335c7ef7752207b7f28d1cdbdec08d0aae02f98f"
+host = "any"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "9a7c8e8b0106aaf0f4207af4f9965a93edac5f651bef20dfe65e1bdb8f0867a2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.armv7l-linux-musleabihf-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "i686"
+git-tree-sha1 = "5f702e26deb8bba656b7d6c67a6856970b6c40ab"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "829c16664364d9a2352b6cab6e096581cf4079759d11030e970741cd190990fb"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.i686-linux-gnu-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "i686"
+git-tree-sha1 = "e63b3ceb376f3d16dda06c88385b3062ebff6c44"
+host = "any"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "6d322351128e6ec73a6a77a3048e5e93f11c57d2470ec52056802bcad1e248c2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.i686-linux-musl-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "powerpc64le"
+git-tree-sha1 = "8926c7880b34da3c99b5329ceea129c1890a547d"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "c73d4639c53d46ce0370773d579cffd425ad42d6355ef6042dc1f53308e83efc"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.powerpc64le-linux-gnu-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "x86_64"
+git-tree-sha1 = "e74cd39937a140a9d8f49187c8521baea9f70e3b"
+host = "any"
+libc = "glibc"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "c3cc0db68b05a20c399f85280a36d2f9dcd7d13a1a066110e7dbcf9a8942a0d7"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.x86_64-linux-gnu-host+any.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "x86_64"
+git-tree-sha1 = "ce774fd1151563cc9e5b0802850f6fb56e779905"
+host = "any"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "952f3833d84b843b65d1212705f52060fad644043fbc4ba5dfea7a4a427c39fc"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/LinuxKernelHeaders-v5.15.14+3/LinuxKernelHeaders.v5.15.14.x86_64-linux-musl-host+any.tar.gz"
