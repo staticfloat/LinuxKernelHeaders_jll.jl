@@ -5,8 +5,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "57e3fdbfefc875e50a7aa2ba45cd234e4b9c3b730b637ee45f651b38fd2bd2ad"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "c6a1487a120c72e4661a5530035b19785e194cb00b19825e75cff978026aaea2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-x86_64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders]]
 arch = "i686"
 git-tree-sha1 = "d1931c87f8b125082bf62e26afda07ada182526b"
@@ -14,8 +14,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "57e3fdbfefc875e50a7aa2ba45cd234e4b9c3b730b637ee45f651b38fd2bd2ad"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-i686-linux-gnu.tar.gz"
+    sha256 = "c6a1487a120c72e4661a5530035b19785e194cb00b19825e75cff978026aaea2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-i686-linux-gnu.tar.gz"
 [[LinuxKernelHeaders]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -24,8 +24,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "1771aa01580b8805282f33fe83be10cde437ae399c24c181dbddbd21372d919f"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "60ba272e7e9e2912e7a28153b578351e327d304eff883a4c98e6b3c7e9eb953d"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-armv7l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -34,8 +34,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "1771aa01580b8805282f33fe83be10cde437ae399c24c181dbddbd21372d919f"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "60ba272e7e9e2912e7a28153b578351e327d304eff883a4c98e6b3c7e9eb953d"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-armv6l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders]]
 arch = "aarch64"
 git-tree-sha1 = "e09615da5544ab54695942c9d97c90355ed006c2"
@@ -43,8 +43,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "58b6e135b7bf92b6ccb87fe430e5d0de0358d9c0acff925a18753407254f9a2f"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "936cd8d8d125cfb70938551c33ef87b293f6669374d22a177f3cd200861d9f76"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-aarch64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders]]
 arch = "powerpc64le"
 git-tree-sha1 = "608902a3980fcc42b8c3c0de2b59e6f6991fa681"
@@ -52,8 +52,55 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders.download]]
-    sha256 = "137eeb56bc77f0378cb7080101444ae55a467eff8e6fa93535cff0c203e57ec3"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "6e245e39a3a14faa214110d6180cdb9e22457a18dddcf5db29bdc83742bae5ec"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-powerpc64le-linux-gnu.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "x86_64"
+git-tree-sha1 = "d1931c87f8b125082bf62e26afda07ada182526b"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "c6a1487a120c72e4661a5530035b19785e194cb00b19825e75cff978026aaea2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-x86_64-linux-musl.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "i686"
+git-tree-sha1 = "d1931c87f8b125082bf62e26afda07ada182526b"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "c6a1487a120c72e4661a5530035b19785e194cb00b19825e75cff978026aaea2"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-i686-linux-musl.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "11985d052b17aac422c79870b27f35b321f35bc1"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "60ba272e7e9e2912e7a28153b578351e327d304eff883a4c98e6b3c7e9eb953d"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-armv7l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "11985d052b17aac422c79870b27f35b321f35bc1"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "60ba272e7e9e2912e7a28153b578351e327d304eff883a4c98e6b3c7e9eb953d"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-armv6l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders]]
+arch = "aarch64"
+git-tree-sha1 = "e09615da5544ab54695942c9d97c90355ed006c2"
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders.download]]
+    sha256 = "936cd8d8d125cfb70938551c33ef87b293f6669374d22a177f3cd200861d9f76"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-v6.9.1-aarch64-linux-musl.tar.gz"
 
 [[LinuxKernelHeaders-build_log]]
 arch = "x86_64"
@@ -63,8 +110,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "df73eb334d70ce81cb2df4f17e96a6b7ec8e58d23c9b14d862dd40e46726c55f"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "84a4c65e5ba595d5ba4ff9534265937df9e874450cb03a077468ec2b3112c4e5"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-x86_64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-build_log]]
 arch = "i686"
 git-tree-sha1 = "7e2ee7008a5167eda3382b2e47f97e1293625cff"
@@ -73,8 +120,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "c0080cc2caa1e8941af3927558544d8ce6fee146db754a7853fd9d7f58206315"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-i686-linux-gnu.tar.gz"
+    sha256 = "0c56623c8e54622b3be3a6f7210b2ec795ea483f41538f1d6e27e27d6685e19e"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-i686-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -84,8 +131,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "6923abf5b5e2764db75e33e48491a32afa44f152d424c0cb9a875ac05d327f55"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "39def609a529ecf318ae2a4e50b95d5107857dc930b459743715cfc2bf0223b3"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-armv7l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -95,8 +142,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "779c8e823f50d5e967259d0558cde727cb0143eaefdea69d5f58f6601242ba86"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "7608ee37313590bb050e3a775dadf9b90aaed2f0d6878a7decfab92bd30ec83b"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-armv6l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders-build_log]]
 arch = "aarch64"
 git-tree-sha1 = "75df707947aa7186d9eef45ee8eb4460a7f85f17"
@@ -105,8 +152,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "a959649fe3e7a990ab88f8e9e936dd7797b1df8a0c42cdbcf4c3aa6b6eb2d061"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "5480655c7e0ebf41568a523307da103547afcf812a7d551e63cc89329807fedd"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-aarch64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-build_log]]
 arch = "powerpc64le"
 git-tree-sha1 = "6a7c6bbeb3f1923b5fa56109f07cb58a384b088a"
@@ -115,8 +162,60 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-build_log.download]]
-    sha256 = "258db463eb03a6fd6ac4ca07ece988fadb4edc5c8e047f020d8516908386d22c"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3b5f0573b748f04bf681f697cc36fe026a23a151f6900663b0b0bb3f2a4e594a"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-powerpc64le-linux-gnu.tar.gz"
+[[LinuxKernelHeaders-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "e1e0a16f902c571ae2604078ea8ba3ce6d5d39cc"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-build_log.download]]
+    sha256 = "1dbcd7d5af862378dfafd18fbdf78cff11405e391f622a70a658def324be6250"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-x86_64-linux-musl.tar.gz"
+[[LinuxKernelHeaders-build_log]]
+arch = "i686"
+git-tree-sha1 = "ea3255f0f39bcd01d6570e683abfb53c3d82d002"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-build_log.download]]
+    sha256 = "4fde47175fd6c19cdbddddcf0df1eadec2fd617d376680264c15d60eb54cbd94"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-i686-linux-musl.tar.gz"
+[[LinuxKernelHeaders-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6b0fe28aa5ed926079a4ea7491dfc166e60071c9"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-build_log.download]]
+    sha256 = "7fdb61eeaa443051ce113e43f3ec9469e4ff656ec4d88532092d817630decb85"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-armv7l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b9574a46fff1f78b5c47afcbbec0aed5d5fcd671"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-build_log.download]]
+    sha256 = "152b1221d93b357cd8bc64b9ec974091ffdc13973d671cdd4b4f2c35691ff110"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-armv6l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "c8a2405f04466c88105d77a184d05f1953d48494"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-build_log.download]]
+    sha256 = "4197f4d6db20b2b5972531126ab08eeeb8a5d3146544cf011161f1852d5f542b"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-build_log-v6.9.1-aarch64-linux-musl.tar.gz"
 
 [[LinuxKernelHeaders-extract_log]]
 arch = "x86_64"
@@ -126,8 +225,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "d58b9bea85a04e142aca1847f12f77f5a2b1800dc377b68e6ccf5bbe1157c3dd"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "c660bdfe7629daef207cac64318f6d1600218108db145cbcc47906c2cfa2d4ee"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-x86_64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-extract_log]]
 arch = "i686"
 git-tree-sha1 = "cf995aeaa611f027abc66f8f103fb957d7b46c7e"
@@ -136,8 +235,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "f8d3075e5380127b81c77561aff3da461efef92a6d713d1c9aee9074c084be56"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-i686-linux-gnu.tar.gz"
+    sha256 = "dab52c4684360666c936137d6cb190e7cabb62c3e2a24aa42678c296c3ec531f"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-i686-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -147,8 +246,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "414bc1707d6610b1f05cdaa633f084d816e4489c8ea69a578f70ae55b970e4bd"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "bf313e2cabe8b6c12375ca2b6608606efdda7f5cad531b7a6e54980cc3248063"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-armv7l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -158,8 +257,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "2e848969b4c0968121af88fea2d83b0ac7d3fb95df855b11998c17ebd0c4499f"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "c91e13855849c19d72e1388e31643b3ac138a7ec00a90e8c8527a7836563faee"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-armv6l-linux-gnueabihf.tar.gz"
 [[LinuxKernelHeaders-extract_log]]
 arch = "aarch64"
 git-tree-sha1 = "186062dfee800826faad9869e73cd355577580a7"
@@ -168,8 +267,8 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "91abdf857f4e5c90b018a9955326e355297092849677d546823b37d195b97a5b"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "ed715bab6e1aa08268e3623e30f033889babb28a9b4694362e7b644b4182d4b8"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-aarch64-linux-gnu.tar.gz"
 [[LinuxKernelHeaders-extract_log]]
 arch = "powerpc64le"
 git-tree-sha1 = "80332753f06511d73bc68a0621235d2bbf82d7cc"
@@ -178,5 +277,57 @@ libc = "glibc"
 os = "linux"
 
     [[LinuxKernelHeaders-extract_log.download]]
-    sha256 = "c87ad35be4f7d7a6538d176a51280e3f3371618dfb092633b9aea8f4bc133ac1"
-    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "e01f60808d2b9572b9f62d4626cc065f2a8519d1936209770d3211fe1b1d5607"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-powerpc64le-linux-gnu.tar.gz"
+[[LinuxKernelHeaders-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "e7c708e450fa47db3f00a2079e2fe28cdd75f3ea"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-extract_log.download]]
+    sha256 = "280f41f6df0bdaa52bf29a5028f2b0094f3d5f1f48c579a1684cf9f8d0e018a7"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-x86_64-linux-musl.tar.gz"
+[[LinuxKernelHeaders-extract_log]]
+arch = "i686"
+git-tree-sha1 = "a207d49493328891d1ec3c2b5068008715196201"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-extract_log.download]]
+    sha256 = "528aaccd4e48492df5d33a52c6d2c084059e5d53099c45f13f20b5e24e3d9ce4"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-i686-linux-musl.tar.gz"
+[[LinuxKernelHeaders-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "81242744cabc8f1b6dbd225f5d66d3cafa453aa4"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-extract_log.download]]
+    sha256 = "239d69c3a44da8c08584894549988adccfac5d0afe9d016441239f2ffdd80b59"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-armv7l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a130b99e5d7b0588a771ee91ea6d1137164d4400"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-extract_log.download]]
+    sha256 = "bf1bc4a7198e00be9434d0c57117e983f1fc9bcf94cb068bda739b20f76fa357"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-armv6l-linux-musleabihf.tar.gz"
+[[LinuxKernelHeaders-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "6101701765230aee8e43bb82476f2e01db129124"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LinuxKernelHeaders-extract_log.download]]
+    sha256 = "3beb3cf43de3d85492f30abf5d2176c943fefaa7fe8e9f3f844bb535caa3e7ef"
+    url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.1-GCC/LinuxKernelHeaders-extract_log-v6.9.1-aarch64-linux-musl.tar.gz"

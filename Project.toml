@@ -1,6 +1,6 @@
 name = "LinuxKernelHeaders_jll"
 uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"
-version = "6.9.0"
+version = "6.9.1"
 
 [deps]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
