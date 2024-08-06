@@ -4,27 +4,31 @@ julia_compat = "1.6"
 platform_augmentation_code = ""
 
 [[builds]]
-deps = []
 name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
 platform = "x86_64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.9.5"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b5b56bcdad3b95658564d8fd0c002e963fdda2ec"
+    treehash = "sha1:0e762a71dad379b96e13c5bc9136056ba9126f20"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f40add2e6addd57396262dc6abbacbfd96dfb13342c1945e945b2c5817566348"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:df73eb334d70ce81cb2df4f17e96a6b7ec8e58d23c9b14d862dd40e46726c55f"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:59edc2c42b06121d64be587895f7946f032993ed"
+    treehash = "sha1:4ded0f2d2e5efe3985ac688dc7feb8f6b9bbf8f6"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8e6bca57e5ae0df5a6c511ac4b63c14e798e828b251fdfe3245fe033c9f0cb10"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:d58b9bea85a04e142aca1847f12f77f5a2b1800dc377b68e6ccf5bbe1157c3dd"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "limits_h"
@@ -36,33 +40,37 @@ platform = "x86_64-linux-gnu"
     url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
 
     [builds.artifact]
-    treehash = "sha1:967ebabee35b10106afc34a2afcf197a470c217a"
+    treehash = "sha1:d1931c87f8b125082bf62e26afda07ada182526b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:9493917e06f6d6eba347bb20a6f2cfee7661b43483aa94e94d5de2013ecd20c4"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:57e3fdbfefc875e50a7aa2ba45cd234e4b9c3b730b637ee45f651b38fd2bd2ad"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-x86_64-linux-gnu.tar.gz"
 [[builds]]
-deps = []
 name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
 platform = "i686-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.9.5"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6dea02cf668de40a17678ded651a8adbecbda38c"
+    treehash = "sha1:7e2ee7008a5167eda3382b2e47f97e1293625cff"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:730af520ff639b4998f94d90cf1aa2a3ee2cb811283820a68b3a1c8825fea666"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:c0080cc2caa1e8941af3927558544d8ce6fee146db754a7853fd9d7f58206315"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9be4df86c9fc2231bee7f841cc918f466102ba64"
+    treehash = "sha1:cf995aeaa611f027abc66f8f103fb957d7b46c7e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:699ccdb0a5f161a01d9585c68f936173576546073daf1d9f4b11907047ee7aa3"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:f8d3075e5380127b81c77561aff3da461efef92a6d713d1c9aee9074c084be56"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-i686-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "limits_h"
@@ -74,71 +82,37 @@ platform = "i686-linux-gnu"
     url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
 
     [builds.artifact]
-    treehash = "sha1:967ebabee35b10106afc34a2afcf197a470c217a"
+    treehash = "sha1:d1931c87f8b125082bf62e26afda07ada182526b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:cf3912dbe1231f85c136f93e247a1a2cb30bfe96925cdea012348a3ffd4f432b"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:57e3fdbfefc875e50a7aa2ba45cd234e4b9c3b730b637ee45f651b38fd2bd2ad"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-i686-linux-gnu.tar.gz"
 [[builds]]
-deps = []
 name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
-platform = "aarch64-linux-gnu"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2a9ec00b6e6d7083776e1aa677ccdcd596e8242e"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:933a10bf5c6b61583ba4a2d7d19fea6cde91a6c84aee039ba0b5e587dcf72eba"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-aarch64-linux-gnu.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f2a7437f103817ff8db965fd15eeed816b129557"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:0dffd6537742a95f4a6b0635feb60590ff8f49377801010784a7a7cd0a0eb6f5"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-aarch64-linux-gnu.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:c19d79ac84fc33951215c8ad80fc8ea8d10400a1"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ef4db326ce82b730a443112f463140539203f13a553d1266dea9e1e5509128ab"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-aarch64-linux-gnu.tar.gz"
-[[builds]]
-deps = []
-name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
 platform = "armv7l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "6.9.5"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f12275580e891f67f37eb6cc403bb8cb12617cd4"
+    treehash = "sha1:1b464adfbf5169735af8be8e32a5079d2d28f16e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8d6a1f70966e00f3acc89d1358e7622323f300ee71d5eb5624154f8caab791db"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:6923abf5b5e2764db75e33e48491a32afa44f152d424c0cb9a875ac05d327f55"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:57bb1514457d6037cfe43e16793df26bea36786e"
+    treehash = "sha1:b9f268eb65a40f21cb6012c5e8116bcf762b2dea"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:80b1d6bc305f878a4d6ab642c8f4148d16c27289cb3c5482ed3c5364ac8d3ee6"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:414bc1707d6610b1f05cdaa633f084d816e4489c8ea69a578f70ae55b970e4bd"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.products]]
     name = "limits_h"
@@ -150,71 +124,121 @@ platform = "armv7l-linux-gnueabihf"
     url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
 
     [builds.artifact]
-    treehash = "sha1:599d5288aee5c791d96d849055dbbb0e3c3f526d"
+    treehash = "sha1:11985d052b17aac422c79870b27f35b321f35bc1"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:aa5a18c5ed3380bf0b9d821401d265df662608d1319d605e6d8adfe446787b9d"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:1771aa01580b8805282f33fe83be10cde437ae399c24c181dbddbd21372d919f"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
-deps = []
 name = "LinuxKernelHeaders"
+platform = "armv6l-linux-gnueabihf"
+deps = []
 lazy = "false"
 src_version = "6.9.5"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ae2828ba85a9c88254da59141f8f6938f8dcb2bc"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:779c8e823f50d5e967259d0558cde727cb0143eaefdea69d5f58f6601242ba86"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:afc8181dfbb200cb8cab867c5a85dca7e9de8426"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2e848969b4c0968121af88fea2d83b0ac7d3fb95df855b11998c17ebd0c4499f"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.products]]
+    name = "limits_h"
+    type = "file"
+    path = "include/linux/limits.h"
+
+    [[builds.sources]]
+    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
+    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
+
+    [builds.artifact]
+    treehash = "sha1:11985d052b17aac422c79870b27f35b321f35bc1"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:1771aa01580b8805282f33fe83be10cde437ae399c24c181dbddbd21372d919f"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-armv6l-linux-gnueabihf.tar.gz"
+[[builds]]
+name = "LinuxKernelHeaders"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.9.5"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:75df707947aa7186d9eef45ee8eb4460a7f85f17"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a959649fe3e7a990ab88f8e9e936dd7797b1df8a0c42cdbcf4c3aa6b6eb2d061"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:186062dfee800826faad9869e73cd355577580a7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:91abdf857f4e5c90b018a9955326e355297092849677d546823b37d195b97a5b"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "limits_h"
+    type = "file"
+    path = "include/linux/limits.h"
+
+    [[builds.sources]]
+    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
+    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
+
+    [builds.artifact]
+    treehash = "sha1:e09615da5544ab54695942c9d97c90355ed006c2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:58b6e135b7bf92b6ccb87fe430e5d0de0358d9c0acff925a18753407254f9a2f"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-aarch64-linux-gnu.tar.gz"
+[[builds]]
+name = "LinuxKernelHeaders"
 platform = "powerpc64le-linux-gnu"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:71d7d30b9e44fa1abfa9585242db78d99f7761b4"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:53613b9c24e4bb8eee60bc3f3bc0a768e25cb5faad4dec384fdd2d0b461fb7a6"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ba5ba18d31f7f7560f10c78dde1ae41abfe68568"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e94e4ca8f24c6363424cecf4b761ccf09b0fec27d8f7f245d08942c65b1e4391"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:90aefd31b2c80ee069a9c23f1a4927fc274e72bf"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:19f9d64a44ba9b51cf6887e61e4ebb714c579581a57135e79f8ce58dc866f35e"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-powerpc64le-linux-gnu.tar.gz"
-[[builds]]
 deps = []
-name = "LinuxKernelHeaders"
 lazy = "false"
 src_version = "6.9.5"
-platform = "x86_64-linux-musl"
+
+    [[builds.licenses]]
+    license_text = "The Linux Kernel is provided under:\n\n\tSPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note\n\nBeing under the terms of the GNU General Public License version 2 only,\naccording with:\n\n\tLICENSES/preferred/GPL-2.0\n\nWith an explicit syscall exception, as stated at:\n\n\tLICENSES/exceptions/Linux-syscall-note\n\nIn addition, other licenses may also apply. Please see:\n\n\tDocumentation/process/license-rules.rst\n\nfor more details.\n\nAll contributions to the Linux Kernel are subject to this COPYING file.\n"
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:91f5a0aabc374f7da57f7b4c7912cf40d489ba7d"
+    treehash = "sha1:6a7c6bbeb3f1923b5fa56109f07cb58a384b088a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7c08fd3bf5b2c31edf5759cadf5960236caa80508a1ddf1ed562d6636b60a9f8"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:258db463eb03a6fd6ac4ca07ece988fadb4edc5c8e047f020d8516908386d22c"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-build_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:76408aed7f1906ccb02d8291f02321f5cac61f62"
+    treehash = "sha1:80332753f06511d73bc68a0621235d2bbf82d7cc"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:11924b3a2e4a977cd441e3f3b11801d34348471efcd237fb882ef98212692ecf"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:c87ad35be4f7d7a6538d176a51280e3f3371618dfb092633b9aea8f4bc133ac1"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-extract_log-v6.9.0-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "limits_h"
@@ -226,160 +250,8 @@ platform = "x86_64-linux-musl"
     url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
 
     [builds.artifact]
-    treehash = "sha1:967ebabee35b10106afc34a2afcf197a470c217a"
+    treehash = "sha1:608902a3980fcc42b8c3c0de2b59e6f6991fa681"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:28c0e252e994430e806ae84e90e93fa238d9c90323b710e6c0991dcad39e7484"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-x86_64-linux-musl.tar.gz"
-[[builds]]
-deps = []
-name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
-platform = "i686-linux-musl"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:19eef2b8abb414ba6e544215fc8b69740744d0a2"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:eda60c8f08e33432e6183df5b08b1231e103808997ee5b1f5e1555db1d03905d"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-i686-linux-musl.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6ae8648d7163c0894f04235676f2a446b4a0786f"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b94c4b398cc638cd57e4da0f74c2736dd7d1280016111d0811ee2c4544294360"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-i686-linux-musl.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:967ebabee35b10106afc34a2afcf197a470c217a"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:800f50a6850182af6bb24ca5ca11886fd5cb5d15490dc0757428b3f5700af260"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-i686-linux-musl.tar.gz"
-[[builds]]
-deps = []
-name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
-platform = "aarch64-linux-musl"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c4b418c6efb92b9b2154754fc2c51e8d066bb97e"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b9cbadb61fc69cbe296d26b635ee4a01792fe837cdaa2a9e853f768f50fc4fe6"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-aarch64-linux-musl.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:b008f32cac9a4e7173db542d19054a43a03030bc"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:ccdec3e39f05af3dcf35e769d7336080d72173cf2cdb1d5e81f4ca3a58de4d1e"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-aarch64-linux-musl.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:c19d79ac84fc33951215c8ad80fc8ea8d10400a1"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1d841f48e4ece7da82c535b4a772af7c4cd0a375c9ee09604071a109dac1e4a1"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-aarch64-linux-musl.tar.gz"
-[[builds]]
-deps = []
-name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
-platform = "armv6l-linux-musleabihf"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6cd796860793d82797603886db4f8d01f8170828"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:41b8b72bcd1bf0de496b1bc9f4a3d0d1da39ef895d0da16591df57eccb90ffb9"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-armv6l-linux-musleabihf.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:26d8fe1ce2a13c17ba2ade7ad6510e5e95a843c3"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:286d73e04d4e3f5200debc148ae409987c57e8237257ee3b7a454701a78e71ac"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-armv6l-linux-musleabihf.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:599d5288aee5c791d96d849055dbbb0e3c3f526d"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:9fd5647c41b348853efa116e7d52edaa49fca5b49e33e2d6235f07d1b89e8830"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-armv6l-linux-musleabihf.tar.gz"
-[[builds]]
-deps = []
-name = "LinuxKernelHeaders"
-lazy = "false"
-src_version = "6.9.5"
-platform = "armv7l-linux-musleabihf"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6a4adec3755fc3b40ac844fce8219149fba4ba97"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:31456dfbe72f88e7eeef925724873af2f67ff97870691dcb7a976107626324d8"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-build_log-v6.9.0-armv7l-linux-musleabihf.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:cde4bd8ad71f17d4a3f1ef9b66ad2f8ddfc03c2c"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4e43da00f5bbc73bc3e7b2984ceecf2e642bb0a922cd56504ebb24aa6db50bfc"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-extract_log-v6.9.0-armv7l-linux-musleabihf.tar.gz"
-
-    [[builds.products]]
-    name = "limits_h"
-    type = "file"
-    path = "include/linux/limits.h"
-
-    [[builds.sources]]
-    treehash = "sha1:2d19bcfa9d63170d84b1d52cf1f02a5e7e224aa3"
-    url = "https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.9.5.tar.xz"
-
-    [builds.artifact]
-    treehash = "sha1:599d5288aee5c791d96d849055dbbb0e3c3f526d"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:24265395b538f21cfd27666aee34291e04e3f6b25566a06983a535223a910dc3"
-        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-BB2/LinuxKernelHeaders-v6.9.0-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:137eeb56bc77f0378cb7080101444ae55a467eff8e6fa93535cff0c203e57ec3"
+        url = "https://github.com/staticfloat/LinuxKernelHeaders_jll.jl/releases/download/v6.9.0-GCC/LinuxKernelHeaders-v6.9.0-powerpc64le-linux-gnu.tar.gz"
